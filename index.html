@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="modalwindow">
+    <i id="x" class='bx bx-x'></i>   
+    <div class="favorites-list"></div>
+  </div>
+
+  <header>
+    <h1>В корзине: 1 товар</h1>
+    <button id="btn1" data-show="part">Показать первые 5</button>
+    <button id="btn-all" data-show="all">Показать все</button>
+    <button id="btn2">Показать модальное окно</button>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="cards"></div>
+    </div>
+  </section>
+
+  <script src="./db.js"></script>
+  <script src="./utils/reload.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
+
